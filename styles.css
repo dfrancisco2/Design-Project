@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    background-color: black;
+    color: gray height: 100%;
+}
+
+h1,
+h2 {
+    /* color: white; */
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.container-flex-coloum {
+    display: flex;
+}
+
+img {
+    height: auto;
+    width: 40%;
+    object-fit: contain;
+}
+
+#main-wrap {
+    width: 60%;
+    margin: 20px auto;
+}
+
+
+/* Nav Bar */
+
+#nav-container {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    padding: 14px;
+    width: 100%;
+    border-left: 5PX solid #e8505b;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+
+/* Banner Section */
+
+#banner {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    height: 70vh;
+    padding: 250px;
+    color: white;
+}
+
+
+/* About Us Section */
+
+#about-us {
+    color: white;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    z-index: 1;
+    margin: 20px;
+    position: relative;
+    bottom: 100px;
+    box-sizing: unset;
+}
+
+.responsive {
+    background-color: #ff5959;
+}
+
+.ease-of-use {
+    background-color: #4f9da6;
+}
+
+.quick-support {
+    background-color: #ffad5a;
+}
+
+.icon-border {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 25px;
+}

@@ -193,6 +193,10 @@ input {
         overflow: hidden;
         object-fit: contain;
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/banner-small.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
     #nav-container {
         position: unset;

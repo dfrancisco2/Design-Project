@@ -188,8 +188,10 @@ input {
         margin: 0;
     }
     #banner {
+        height: 50vh;
         padding: unset;
         overflow: hidden;
+        object-fit: contain;
     }
     #nav-container {
         position: unset;
@@ -216,6 +218,6 @@ input {
     }
     #banner h1 {
         font-size: 1.4rem;
-        top: 50%
+        top: 30%
     }
 }

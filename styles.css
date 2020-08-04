@@ -192,6 +192,7 @@ input {
         padding: unset;
         overflow: hidden;
         object-fit: contain;
+        background-position: left;
     }
     #nav-container {
         position: unset;

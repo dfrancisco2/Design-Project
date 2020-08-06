@@ -60,7 +60,6 @@ input {
 #contact a,
 .footer-icons {
     color: gray;
-    /* margin: 5px; */
 }
 
 
@@ -198,6 +197,10 @@ input {
     background-color: #242424;
     width: 40px;
     height: 20px;
+}
+
+.contact-icons {
+    margin-right: 10px;
 }
 
 

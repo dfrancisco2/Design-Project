@@ -274,3 +274,12 @@ input {
         margin: 0;
     }
 }
+
+
+/* Ultrawide Screens */
+
+@media all and (min-width: 1700px) {
+    #main-wrap {
+        width: 50%;
+    }
+}

@@ -78,6 +78,11 @@ input {
     justify-content: space-between;
 }
 
+.pink-O {
+    color: hotpink;
+    font-weight: 900;
+}
+
 .nav-links a {
     margin: 10px;
 }
@@ -241,6 +246,9 @@ input {
         z-index: 0;
         width: 100%;
         font-size: 0.8rem;
+    }
+    #nav-container span {
+        font-size: 1.5rem;
     }
     .nav-links {
         margin-top: 10px;

@@ -30,6 +30,11 @@ a {
     display: flex;
 }
 
+.pink-O {
+    color: hotpink;
+    font-weight: 900;
+}
+
 #nav-container,
 #nav-container a,
 #about-us,
@@ -76,11 +81,6 @@ input {
     border-left: 5PX solid hotpink;
     z-index: 2;
     justify-content: space-between;
-}
-
-.pink-O {
-    color: hotpink;
-    font-weight: 900;
 }
 
 .nav-links a {
